@@ -1,0 +1,31 @@
+.banner {
+    padding: 10rem 0 3rem 0;
+}
+
+.banner h1 {
+    display: inline-block;
+    color: var(--purple-main);
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+.banner h4 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+    max-width: 70%;
+}
+
+.typed-cursor {
+    background-color: var(--blue-secondary);
+    font-size: 6rem;
+    margin-left: 0.5rem;
+    animation-duration: 1s !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .typed-cursor {
+        display: none;
+    }
+}

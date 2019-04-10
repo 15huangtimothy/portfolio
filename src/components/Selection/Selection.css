@@ -1,0 +1,13 @@
+.selection {
+    padding: 2rem 0;
+    margin: 2rem auto;
+}
+
+.button-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100% + 1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}

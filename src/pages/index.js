@@ -1,21 +1,57 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { Component } from "react"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import "./normalize.css"
+import "bootstrap/dist/css/bootstrap.min.css"
+import "./index.css"
+import Layout from "../layouts/main.js"
+import Banner from "../components/Banner/Banner.js"
+import Selection from "../components/Selection/Selection.js"
+import InterestLoader from "../components/InterestLoader.js"
+import FadeIn from "../components/Animations/FadeIn.js"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+const interests = {
+    "computer-science": "Computer Science",
+    "data-science": "Data Science",
+    engineering: "Engineering",
+    hobbies: "Hobbies",
+}
+
+class IndexPage extends Component {
+    state = {
+        selected: null,
+        Interests: InterestLoader(interests),
+    }
+
+    onSelect = id => {
+        if (id) {
+            this.setState({ selected: id })
+        }
+    }
+
+    generateComponent = () => {
+        const ComponentToRender = this.state.Interests[this.state.selected]
+        if (ComponentToRender) {
+            return <ComponentToRender />
+        }
+    }
+
+    render() {
+        return (
+            <Layout>
+                <Banner />
+                <FadeIn timeout={2000} fadeTime={700}>
+                    <Selection
+                        items={interests}
+                        onSelect={this.onSelect}
+                        selected={this.state.selected}
+                    />
+                    {this.generateComponent()}
+                </FadeIn>
+            </Layout>
+        )
+    }
+}
+
+// <SEO title="Page two" />
 
 export default IndexPage
