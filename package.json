@@ -7,7 +7,6 @@
     "dependencies": {
         "bootstrap": "^4.3.1",
         "gatsby": "^2.2.5",
-        "gatsby-image": "^2.0.37",
         "gatsby-plugin-manifest": "^2.0.24",
         "gatsby-plugin-offline": "^2.0.25",
         "gatsby-plugin-page-transitions": "^1.0.7",
@@ -24,6 +23,7 @@
         "typed.js": "^2.0.10"
     },
     "devDependencies": {
+        "gh-pages": "^2.0.1",
         "prettier": "^1.16.4"
     },
     "keywords": [
@@ -32,6 +32,7 @@
     "license": "MIT",
     "scripts": {
         "build": "gatsby build",
+        "deploy": "gatsby build --prefix-paths && gh-pages -d public",
         "develop": "gatsby develop",
         "format": "prettier --write src/**/*.{js,jsx}",
         "start": "npm run develop",
