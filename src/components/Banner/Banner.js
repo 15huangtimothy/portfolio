@@ -31,6 +31,8 @@ class Banner extends Component {
                         <a
                             className="link-animation"
                             href="https://www.linkedin.com/in/temhuang/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             connect!
                         </a>

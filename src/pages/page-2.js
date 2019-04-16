@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../layouts/main.js"
+import Layout from "../layouts/layout.js"
 
 const SecondPage = () => (
     <Layout>

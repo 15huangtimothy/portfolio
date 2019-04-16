@@ -1,9 +1,10 @@
 import React, { Component } from "react"
 
+import Layout from "../layouts/layout.js"
 import "./normalize.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./index.css"
-import Layout from "../layouts/main.js"
+import SEO from "../components/seo"
 import Banner from "../components/Banner/Banner.js"
 import Selection from "../components/Selection/Selection.js"
 import InterestLoader from "../components/InterestLoader.js"
@@ -38,6 +39,7 @@ class IndexPage extends Component {
     render() {
         return (
             <Layout>
+                <SEO title="Tim Huang" />
                 <Banner />
                 <FadeIn timeout={2000} fadeTime={700}>
                     <Selection
@@ -51,7 +53,5 @@ class IndexPage extends Component {
         )
     }
 }
-
-// <SEO title="Page two" />
 
 export default IndexPage

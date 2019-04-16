@@ -4,7 +4,12 @@ import "./Project.css"
 
 const Project = props => {
     const learn_more_button = (
-        <a className="btn button-2" href={props.learn_more}>
+        <a
+            className="btn button-2"
+            href={props.learn_more}
+            target="_blank"
+            rel="noopener noreferrer"
+        >
             Learn More
         </a>
     )
