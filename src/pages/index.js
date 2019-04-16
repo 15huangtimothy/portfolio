@@ -39,7 +39,7 @@ class IndexPage extends Component {
     render() {
         return (
             <Layout>
-                <SEO title="Tim Huang" />
+                <SEO />
                 <Banner />
                 <FadeIn timeout={2000} fadeTime={700}>
                     <Selection
