@@ -14,9 +14,9 @@ const Hobbies = () => (
             skills and pursuing my other creative interests!
         </p>
         <Project title="Photography" image={photography} learn_more="">
-            I enjoy playing around with landscape and portrait photography and
-            learning Photoshop and Lightroom. Photography portfolio coming in
-            the future!
+            I enjoy playing around with landscape and portrait photography as
+            well as learning Photoshop and Lightroom. Photography portfolio
+            coming in the future!
         </Project>
         <Project title="Music Production" image={music} learn_more="">
             In addition to playing multiple instruments, I love creating and
