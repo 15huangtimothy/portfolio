@@ -14,22 +14,19 @@ const Hobbies = () => (
             skills and pursuing my other creative interests!
         </p>
         <Project title="Photography" image={photography} learn_more="">
-            Developed a model that predicts the ride duration of taxi trips in
-            NYC using existing NYC taxi data. Conducted exploratory data
-            analysis, feature engineering, and cross-validation to select a
-            regularized linear model and create a data processing pipeline.
+            I enjoy playing around with landscape and portrait photography and
+            learning Photoshop and Lightroom. Photography portfolio coming in
+            the future!
         </Project>
         <Project title="Music Production" image={music} learn_more="">
-            Developed a model that predicts the ride duration of taxi trips in
-            NYC using existing NYC taxi data. Conducted exploratory data
-            analysis, feature engineering, and cross-validation to select a
-            regularized linear model and create a data processing pipeline.
+            In addition to playing multiple instruments, I love creating and
+            producing music! Currently I focus mainly on electronic music, but
+            hoping to try out more genres.
         </Project>
         <Project title="Graphic Design" image={graphic_design} learn_more="">
-            Developed a model that predicts the ride duration of taxi trips in
-            NYC using existing NYC taxi data. Conducted exploratory data
-            analysis, feature engineering, and cross-validation to select a
-            regularized linear model and create a data processing pipeline.
+            While at UC Berkeley, I was a member of publicity committees for
+            several student organizations. I helped create graphical assets for
+            flyers, events, and marketing purposes.
         </Project>
     </InterestLayout>
 )

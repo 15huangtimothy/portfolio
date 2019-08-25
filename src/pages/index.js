@@ -11,8 +11,8 @@ import InterestLoader from "../components/InterestLoader.js"
 import FadeIn from "../components/Animations/FadeIn.js"
 
 const interests = {
-    "computer-science": "Computer Science",
     "data-science": "Data Science",
+    "computer-science": "Computer Science",
     engineering: "Engineering",
     hobbies: "Hobbies",
 }

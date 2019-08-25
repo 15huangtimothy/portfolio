@@ -2,8 +2,8 @@
     margin: 5rem 2rem;
     background-color: white;
     border: none;
-    box-shadow: 0 0.15rem 0.3rem rgba(0, 0, 0, 0.16),
-        0 0.15rem 0.3rem rgba(0, 0, 0, 0.23);
+    box-shadow: 0 0.17rem 0.35rem rgba(0, 0, 0, 0.17),
+        0 0.17rem 0.35rem rgba(0, 0, 0, 0.24);
 }
 .card-image {
     display: inline-block;
