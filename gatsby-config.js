@@ -1,11 +1,11 @@
 module.exports = {
     siteMetadata: {
         title: `Tim Huang`,
-        description: ``,
+        description: `Portfolio`,
         author: `Tim Huang`,
+        image: `http://temhuang.me/og_icon.png`,
     },
     plugins: [
-        `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
