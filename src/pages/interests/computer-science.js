@@ -27,7 +27,11 @@ const ComputerScience = () => (
             Trello's API for Trello account integration. More information on the
             Github README!
         </Project>
-        <Project title="Portfolio Website" image={portfolioLogo} learn_more="">
+        <Project
+            title="Portfolio Website"
+            image={portfolioLogo}
+            learn_more="https://github.com/15huangtimothy/portfolio"
+        >
             This site! I designed the site through Figma and created it using
             GatsbyJS, a static progressive web app generator based on ReactJS.
             The site is mobile-responsive and uses modular components to allow
@@ -36,7 +40,7 @@ const ComputerScience = () => (
         <Project
             title="Dungeon Generation Game Engine"
             image={dungeon}
-            learn_more=""
+            learn_more="https://sp18.datastructur.es/materials/proj/proj2/proj2"
         >
             As part of my data structures class, I designed and implemented the
             backend for a procedurally-generated and interactive dungeon crawler
@@ -45,7 +49,11 @@ const ComputerScience = () => (
             hallways that a player can navigate through, along with random game
             objectives.
         </Project>
-        <Project title="Bear Maps" image={bear_maps} learn_more="">
+        <Project
+            title="Bear Maps"
+            image={bear_maps}
+            learn_more="https://sp18.datastructur.es/materials/proj/proj3/proj3"
+        >
             For my data structures class, I implemented the backend of a Google
             Maps-clone for the nearby Berkeley area that allows users to pan and
             zoom, as well as provide optimal route navigation information

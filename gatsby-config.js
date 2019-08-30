@@ -1,10 +1,6 @@
 module.exports = {
     siteMetadata: {
         title: "Tim Huang",
-        titleTemplate: "%s",
-        description: "Portfolio",
-        url: "https://temhuang.me", // No trailing slash allowed!
-        image: "/og_icon.png", // Path to your image you placed in the 'static' folder
     },
     plugins: [
         {
