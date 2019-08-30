@@ -20,7 +20,8 @@
         "react-helmet": "^5.2.1",
         "react-reveal": "^1.2.2",
         "react-typist": "^2.0.5",
-        "typed.js": "^2.0.10"
+        "typed.js": "^2.0.10",
+        "yarn": "^1.17.3"
     },
     "devDependencies": {
         "gh-pages": "^2.1.1",

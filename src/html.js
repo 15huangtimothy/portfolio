@@ -19,6 +19,7 @@ export default function HTML(props) {
                     content="width=device-width, initial-scale=1, shrink-to-fit=no"
                 />
 
+                <title>Tim Huang</title>
                 <meta name="description" content={description} />
                 <meta name="image" content={url + image} />
                 <meta property="og:url" content={url} />
