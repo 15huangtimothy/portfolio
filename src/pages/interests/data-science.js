@@ -4,6 +4,7 @@ import InterestLayout from "../../layouts/interest-layout.js"
 import Project from "../../components/Project/Project.js"
 import gptw from "../../images/projects/gptw.png"
 import taxi from "../../images/projects/taxi.png"
+import twitter from "../../images/projects/twitter.png"
 import spam from "../../images/projects/spam.png"
 
 const DataScience = () => (
@@ -53,6 +54,16 @@ const DataScience = () => (
             workplace, using over 10 years of US employee data and applying
             natural language processing methods on employee comments.
         </Project>
+        <Project
+            title="Twitter Sentiment Analysis"
+            image={twitter}
+            learn_more=""
+        >
+            Produced a sentiment analysis on a celebrity’s tweet history. Used
+            Twitter’s API to study historical tweeting patterns and to
+            investigate the relationship between a tweet’s sentiment and its
+            public engagement.
+        </Project>
         <Project title="NYC Taxi Ride Model" image={taxi} learn_more="">
             Developed a model that predicts the ride duration of taxi trips in
             NYC using existing NYC taxi data. Conducted exploratory data
@@ -60,9 +71,9 @@ const DataScience = () => (
             regularized linear model and create a data processing pipeline.
         </Project>
         <Project title="Spam Email Classification" image={spam} learn_more="">
-            Created a spam email classifier using existing email data,
-            exploratory data analysis, feature engineering, and machine learning
-            to design a logistic classification model.
+            Created a spam email classifier using existing email data to train a
+            logistic classification model with 99.6% test accuracy, ranking
+            within the top 3% of all class models.
         </Project>
     </InterestLayout>
 )
