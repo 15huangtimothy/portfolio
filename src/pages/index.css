@@ -40,6 +40,7 @@ h2 {
     transition: all 0.4s ease;
     min-width: 20%;
     outline: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .button-1:focus {
@@ -50,12 +51,14 @@ h2 {
     text-decoration: none;
     color: var(--gray-background);
     background-color: var(--gray-text);
+    border-color: var(--gray-text);
 }
 
 .active {
     text-decoration: none;
     color: var(--gray-background);
-    background-color: var(--gray-text);
+    background-color: var(--purple-main);
+    border-color: var(--purple-main);
 }
 
 .button-2 {
@@ -107,6 +110,9 @@ h2 {
     margin-bottom: 4rem;
 }
 
+.interest-layout-container {
+    padding: 0;
+}
 /** Media Queries */
 
 @media only screen and (max-width: 600px) {

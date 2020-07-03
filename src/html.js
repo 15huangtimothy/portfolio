@@ -6,7 +6,7 @@ export default function HTML(props) {
     const title = "Tim Huang"
     const description = "Portfolio"
     const url = "https://temhuang.me"
-    const image = "/og_icon.png"
+    const image = "/icon.png"
     const type = "website"
 
     return (

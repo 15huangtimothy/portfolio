@@ -3,6 +3,7 @@ import React from "react"
 import InterestLayout from "../../layouts/interest-layout.js"
 import Project from "../../components/Project/Project.js"
 import gptw from "../../images/projects/gptw.png"
+import bert from "../../images/projects/bert.png"
 import taxi from "../../images/projects/taxi.png"
 import twitter from "../../images/projects/twitter.png"
 import spam from "../../images/projects/spam.png"
@@ -11,17 +12,18 @@ const DataScience = () => (
     <InterestLayout>
         <h3 className="interest-header">Data Science</h3>
         <p className="interest-intro">
-            At UC Berkeley, I took the Data Science department's flagship
-            course,{" "}
+            I'm fascinated by the harnessing the power of data and uncovering
+            insights in our increasingly data-enabled world. At UC Berkeley, I
+            took the Data Science flagship course,{" "}
             <a
                 className="link-animation"
                 href="http://www.ds100.org/"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                Data 100: Principles & Techniques of Data Science
+                Data 100
             </a>
-            , where learned and applied exploratory data analysis, feature
+            , where I learned and applied exploratory data analysis, feature
             engineering, statistical inference, and predictive modeling to
             multiple projects, such as the ones listed below. Additionally, I
             worked at{" "}
@@ -34,7 +36,7 @@ const DataScience = () => (
                 Great Place to Work
             </a>{" "}
             as a data science intern, where I got the opportunity to apply NLP
-            and ML techniques to business analytics and workplace research.
+            and ML techniques to conduct workplace research and study users.
             <br />
             <br />
             I'm currently pursuing an M.S. in Data Science at Columbia
@@ -42,17 +44,36 @@ const DataScience = () => (
             understanding of advanced techniques in data science.
         </p>
         <Project
-            title="Great Place to Work Internship"
+            title="Data Science Intern | Great Place to Work"
             image={gptw}
             learn_more=""
         >
-            Conducted a churn analysis by analyzing behaviours of GPTW customer
-            churn and creating a predictive churn model. Presented key findings
-            during company-wide meetings, resulting in my analysis receving high
-            praise from top executives and being distributed to global affiliate
-            companies. Produced research on identifying "belonging" in the
-            workplace, using over 10 years of US employee data and applying
-            natural language processing methods on employee comments.
+            Conducted a churn analysis by analyzing of GPTW customer behavior
+            and creating a predictive churn model. Presented key findings during
+            company-wide meetings, resulting in my analysis receving high praise
+            from top executives and global affiliate companies. Additioanlly,
+            produced research on identifying "belonging" in the workplace, using
+            over 10 years of US employee data and applying NLP methods on
+            employee comments.
+        </Project>
+        <Project
+            title="COVID Literature Search"
+            image={bert}
+            learn_more="https://github.com/jayzern/covid-literature-search"
+        >
+            A BERT-based search engine built using PyTorch (HuggingFace),
+            React.js and Flask trained on the COVID-19 Open Research Dataset by
+            the{" "}
+            <a
+                className="link-animation"
+                href="https://allenai.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Allen Institute for AI
+            </a>
+            , with over 29,000 scholarly articles. Final project for Applied
+            Deep Learning taught by Josh Gordon at Columbia.
         </Project>
         <Project
             title="Twitter Sentiment Analysis"

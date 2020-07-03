@@ -26,8 +26,10 @@ class Banner extends Component {
                 <FadeIn timeout={1000} fadeTime={700}>
                     <h4>
                         Data science M.S. student at Columbia University and UC
-                        Berkeley engineering alumni with a fancy for innovation,
-                        creation, and a nice cup of coffee. Let's{" "}
+                        Berkeley engineering alumni with a love for innovation,
+                        creation, and a nice cup of coffee. <br />
+                        <br />
+                        Let's{" "}
                         <a
                             className="link-animation"
                             href="https://www.linkedin.com/in/temhuang/"
